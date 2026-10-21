@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Part 3 · Events | Assignment 5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><strong>Assignment 5 · JavaScript</strong><nav><a href="index.html">Part 1 · Basics</a><a href="dom.html">Part 2 · DOM</a><a href="events.html" aria-current="page">Part 3 · Events</a><a href="todo.html">Part 4 · To-Do</a></nav></header>
+<main>
+<h1>Part 3 · Events</h1>
+<section>
+<h2>Task 5. Mouse events</h2>
+<div id="hoverBox" class="box">Hover over me</div>
+</section>
+<section>
+<h2>Task 6. Keyboard events</h2>
+<label for="typed">Type something</label>
+<input id="typed" type="text" placeholder="Start typing…">
+<p>You typed: <strong id="typedOut"></strong></p>
+</section>
+<section>
+<h2>Task 7. Calculator</h2>
+<div class="row">
+<input id="a" type="number" placeholder="First number" aria-label="First number">
+<input id="b" type="number" placeholder="Second number" aria-label="Second number">
+</div>
+<div class="row">
+<button data-op="+">+</button><button data-op="-">−</button>
+<button data-op="*">×</button><button data-op="/">÷</button>
+</div>
+<p>Result: <strong id="calcOut">–</strong></p>
+</section>
+</main>
+<script src="events.js"></script>
+</body>
+</html>
