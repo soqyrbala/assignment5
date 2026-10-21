@@ -2,7 +2,7 @@
 
 **Student:** Saginbek Mansur
 **Group:** Se-2528
-**Live site:** https://YOUR-USERNAME.github.io/YOUR-REPO/
+**Live site:** https://soqyrbala.github.io/assignment5/
 
 ## Description
 A small multi-page site with a navbar that covers every task of the assignment.
